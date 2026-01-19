@@ -46,3 +46,35 @@ Data visualization helped uncover patterns and informed preprocessing decisions.
 
 The sentiment classification model was built using **TensorFlow / Keras** with the following architecture:
 
+
+### Training Configuration
+- Optimizer: Adam
+- Loss Function: Sparse Categorical Crossentropy
+- Epochs: 20
+- Batch Size: 32
+- Learning rate scheduling applied
+
+---
+
+## 📈 Model Training & Accuracy Improvement
+
+- Training accuracy improved from **~85% to over 92%**
+- Validation accuracy stabilized around **~80%**
+- Learning rate reduction improved convergence
+- Training and validation curves indicated controlled overfitting
+
+---
+
+## 📊 Model Evaluation
+
+The trained model was evaluated on unseen test data using:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+### 🔹 Test Performance
+
+Test Accuracy: ~80.17%
+The evaluation results indicate good generalization on unseen data.
+---
