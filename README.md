@@ -75,6 +75,6 @@ The trained model was evaluated on unseen test data using:
 
 ### 🔹 Test Performance
 
-Test Accuracy: ~80.17%
-The evaluation results indicate good generalization on unseen data.
+-Test Accuracy: ~80.17%
+-The evaluation results indicate good generalization on unseen data.
 ---
